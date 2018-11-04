@@ -8,6 +8,9 @@ public class Ok : MonoBehaviour
     public static int clicktime=1;
     void OnMouseDown()
     {
+        GameManager.dayornight = (Random.value > 0.5f);
+        GameManager.whichbird = (Random.value > 0.5f);
+        TubeCreate.whichtube=(Random.value > 0.5f);
         GameManager.gamestate = 0;
         BirdFly.input = 0;
         SceneManager.LoadScene("SampleScene");

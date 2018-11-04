@@ -4,7 +4,7 @@ C:/Users/99423/Documents/flappy/Flappy Bird.exe
 SceneListBegin?
 Assets/Scenes/SampleScene.unity
 SceneListEnd?
-7917df7cec72bd19db59301bd3edf272 Assembly-CSharp.dll:.GameManager
+c7e0303c8635cdbc5a0e0b444f8ebc6f Assembly-CSharp.dll:.GameManager
 7e502b4c86fa3609eb7b9e1fd50a56f5 Assembly-CSharp.dll:.BirdFly
 984dcc0ba3707b7691fbdca8ff508d28 Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
 01aa15e337e3a9c62f15153dfac6d589 Unity.TextMeshPro.dll:TMPro.TMP_Dropdown
@@ -143,7 +143,7 @@ ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networki
 33cb61a162da56bb5246d4a4eace3c52 Assembly-CSharp.dll:FileApplication.BestCount
 aa82b3ce4c0c9b227036c0337315c5d3 Unity.TextMeshPro.dll:TMPro.TMP_FontAsset
 e51c09a4cc447f11db225afcd8e3e490 Unity.TextMeshPro.dll:TMPro.TMP_Settings
-1f19dc50ab4f6dc0685298b5cce1ad73 Assembly-CSharp.dll:.TubeMove
+cbeba0be93684d3bcd4b72542d830f58 Assembly-CSharp.dll:.TubeMove
 3cbe666ec9286af7a00a01dc706e2ee4 Assembly-CSharp.dll:.DestoryTest
 cf96e5f7b3d069bab453925bd41be04e UnityEngine.TestRunner.dll:UnityEngine.TestTools.EnumerableSetUpTearDownCommandState
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
@@ -164,5 +164,5 @@ d791aa6007fa3640be1164ea75bb087d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 62a0e753d85e7f9f107605ebf953078c Assembly-CSharp.dll:.GroundMove
 c6666661329916e218bee7f5e79e60f5 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 3165968ba45c74472d279ba04455fccb Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
-9e90c7b735943f1dd573f572960e7837 Assembly-CSharp.dll:.TubeCreate
+538741389ce9b647bd4ea8a4da476214 Assembly-CSharp.dll:.TubeCreate
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh

@@ -165,7 +165,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa8c0b6a008d08843a6254a11f0003fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bird: {fileID: 8332065424333517579, guid: 49e95cf99f752df49b892835519755b8, type: 3}
+  bird: {fileID: 0}
   audioSource: {fileID: 4526548875265921020}
 --- !u!61 &2752617682195848792
 BoxCollider2D:
@@ -219,7 +219,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4608957218721625270}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.25242, y: 3.54, z: 2.1595998}
+  m_LocalPosition: {x: 10.25242, y: 3.5, z: 2.1595998}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 4604254357521480656}

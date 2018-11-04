@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class TubeMove : MonoBehaviour {
 
-    public GameObject bird;
+
     public AudioSource audioSource;
     private bool pulse = false;
     public static int speed = 3;

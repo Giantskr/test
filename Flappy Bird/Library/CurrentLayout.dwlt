@@ -43,10 +43,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 887, y: 498}
-  m_MaxSize: {x: 16012, y: 14048}
+  m_MinSize: {x: 885, y: 498}
+  m_MaxSize: {x: 16010, y: 14048}
   vertical: 1
-  controlID: 127
+  controlID: 11
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -94,10 +94,10 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 947
-  m_MinSize: {x: 887, y: 498}
-  m_MaxSize: {x: 16012, y: 14048}
+  m_MinSize: {x: 885, y: 498}
+  m_MaxSize: {x: 16010, y: 14048}
   vertical: 0
-  controlID: 128
+  controlID: 12
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -117,8 +117,8 @@ MonoBehaviour:
     y: 0
     width: 563
     height: 947
-  m_MinSize: {x: 277, y: 74}
-  m_MaxSize: {x: 4002, y: 4024}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -268,7 +268,7 @@ MonoBehaviour:
   m_MinSize: {x: 610, y: 498}
   m_MaxSize: {x: 12010, y: 14048}
   vertical: 1
-  controlID: 88
+  controlID: 13
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -294,7 +294,7 @@ MonoBehaviour:
   m_MinSize: {x: 610, y: 224}
   m_MaxSize: {x: 12010, y: 4024}
   vertical: 0
-  controlID: 67
+  controlID: 14
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -451,19 +451,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/perfabs
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/perfabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\99423\Documents\Flappy Bird
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 70090000
-    m_LastClickedID: 2416
+    m_SelectedIDs: 280a0000
+    m_LastClickedID: 2600
     m_ExpandedIDs: 00000000540900007409000084090000b6090000de090000220b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -613,7 +613,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: e24bfffff44bffff244dffff5855ffff725bffff605fffffee60ffff1882ffff2086ffffd098ffffe298ffff129affff88c2ffff6ac5ffffcefbffff
+      m_ExpandedIDs: f019feff021afeff321bfeff8227feff9427feffc428feff524ffeffd250feffdc60feff2a7efeff5a7ffeff0889feff2296feff5297feffca9bfeff58a7feff68abfeff5aaefeffcaaffeff66c8ffff2ad2ffffccd3ffff36d5ffff24daffff26f5ffffcefbffffe82c00003a2d000080ab0000c2b600004eb70000bad60000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -669,9 +669,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1.4669539, y: 1.8726162, z: -7.5833735}
+    m_Target: {x: 0.548602, y: 0.09159481, z: 17.34961}
     speed: 2
-    m_Value: {x: -1.4669539, y: 1.8726162, z: -7.5833735}
+    m_Value: {x: 0.548602, y: 0.09159481, z: 17.34961}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -703,15 +703,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 6.781604
+    m_Target: 10.888004
     speed: 2
-    m_Value: 6.781604
+    m_Value: 10.888004
   m_Ortho:
     m_Target: 1
     speed: 2
     m_Value: 1
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewRotation: {x: 0.32405823, y: 0.03915397, z: -0.013424752, w: 0.94513124}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 

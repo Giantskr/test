@@ -5,12 +5,19 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour {
 
+    public GameObject night;
+    public GameObject day;
+    public static bool dayornight;
     public GameObject startUI; 
     public GameObject endUI;
     public GameObject countBoard;
     public GameObject BestCount;
     public static int count = 0;
-    public static int gamestate;  //用一种智障的方式控制三种游戏状态
+    public static int gamestate;
+    public GameObject bluebird;
+    public GameObject orangebird;
+    public static bool whichbird;
+    //用一种智障的方式控制三种游戏状态
     public enum GameState   //三个游戏状态
     {
         start,
@@ -31,8 +38,23 @@ public class GameManager : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-
         
+        if(dayornight==true)
+        {
+            day.SetActive(true);night.SetActive(false);
+        }
+        else
+        {
+            day.SetActive(false); night.SetActive(true);
+        }
+        if (whichbird == true)
+        {
+            bluebird.SetActive(true);orangebird.SetActive(false);
+        }
+        else
+        {
+            bluebird.SetActive(false); orangebird.SetActive(true);
+        }
         if (gamestate == 0) { gameState = GameState.start; }
         if (gamestate==1) { gameState = GameState.playing; }
         if (gamestate==2) { gameState = GameState.end; }
