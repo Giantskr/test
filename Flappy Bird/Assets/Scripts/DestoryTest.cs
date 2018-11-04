@@ -3,10 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class DestoryTest : MonoBehaviour {
-    public GameObject Tap;
-    public GameObject GrayBird;
-    public GameObject StartFlappyBird;
-    public GameObject New;
+    public GameObject gameObject;
+    public static int play=0;
     
 
 
@@ -14,21 +12,20 @@ public class DestoryTest : MonoBehaviour {
     // Use this for initialization
 
     // Update is called once per frame
-    void FixedUpdate() {
+    void FixedUpdate() { 
+        
 
         if (Input.GetMouseButtonDown(0))
         {
+            play = 1;
             Destroy();
         }
         
     }
         void Destroy()
         {
-            Destroy(Tap);
-            Destroy(GrayBird);    
-            Destroy(StartFlappyBird);
-            Destroy(New);
- 
+            Destroy(gameObject);
+            
     }
 	}
 
