@@ -47,6 +47,7 @@ public class TubeMove : MonoBehaviour {
                 pulse = true;//为了让这个步骤只执行1次
                 GetComponent<Rigidbody2D>().velocity = Vector2.left * 0;
                 BirdFly.input = 2;
+                BirdFly.angleswitch = 0;
                 GroundMove.speed = 0;
                 GameManager.gamestate = 2;
             }

@@ -39,6 +39,7 @@ public class GroundMove : MonoBehaviour {
                 GameManager.gamestate = 2;
                 pulse = true;
                 BirdFly.input = 2;
+                BirdFly.angleswitch = 0;
             }
         }
     }
